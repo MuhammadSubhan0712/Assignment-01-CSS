@@ -1,0 +1,121 @@
+/* Foreground Color Property & HSL*/
+#main-titlec {
+  color: darkblue;
+  background-color: hsl(300, 82%, 53%);
+}
+
+/* Background Color Property */
+#color-box {
+  background-color: yellow;
+}
+
+/* RGB Color Value */
+.intro-paragraph {
+  color: rgb(38, 0, 255);
+}
+
+/* RGBA Color Value */
+p:last-child {
+  background-color: rgba(0, 128, 0, 0.3);
+}
+
+/* Hex Color Code */
+.intro-paragraph {
+  color: #8a2be2;
+}
+
+/* Color Names */
+#color-box {
+  color: coral;
+}
+
+/*--------------------------------------------------------------*/
+/* Universal Selector */
+* {
+  color: gray;
+  background-color: lightgray;
+}
+
+/* Element Selector */
+h1 {
+  color: darkblue;
+  background-color: lightcyan;
+}
+
+/* ID Selector */
+#main-titles {
+  color: darkred;
+  background-color: mistyrose;
+}
+
+/* Class Selector */
+.nav-link {
+  color: forestgreen;
+  background-color: lightyellow;
+}
+
+/* Descendant Selector */
+.color-box p {
+  color: saddlebrown;
+  background-color: lemonchiffon;
+}
+
+/* Child Selector */
+.color-box > p {
+  color: goldenrod;
+  background-color: ivory;
+}
+
+/* Adjacent Sibling Selector */
+.intro-paragraph + p {
+  color: teal;
+  background-color: lightcyan;
+}
+
+/*--------------------------------------------------------------*/
+
+/* Font size and family for all elements */
+* {
+  font-size: 20px;
+  font-family: "Arial", sans-serif;
+}
+
+/* Element Selector */
+h1 {
+  color: rgb(15, 54, 0);
+  background-color: rgb(141, 212, 171);
+  text-align: center;
+}
+
+/* ID Selector */
+#main-titlet {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Class Selector */
+.intro-paragraph {
+  font-style: italic;
+  line-height: 1.5;
+}
+
+/* Descendant Selector */
+.content-paragraph * {
+  text-transform: uppercase;
+}
+
+/* First word in every paragraph */
+p {
+  font-weight: bold;
+}
+
+/* Class Selector */
+.nav-link {
+  color: forestgreen;
+  text-decoration: none;
+}
+
+/* Descendant Selector */
+.color-box p {
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+}
